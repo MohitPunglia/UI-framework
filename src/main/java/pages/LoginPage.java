@@ -1,3 +1,5 @@
+package pages;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -46,6 +48,10 @@ public class LoginPage extends BasePage {
     public void login(String name) {
         getUsername().sendKeys(name);
         getLoginBtn().click();
+    }
+
+    public String getErrorMessage() {
+        return getPageHeader(errorMsg);
     }
 
 }

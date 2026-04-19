@@ -1,4 +1,9 @@
-/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/BasePage.java
-/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/HomePage.java
-/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/LoginPage.java
-/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/Page.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/utils/DataProviderUtil.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/utils/JsonReader.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/utils/ExtentManager.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/pages/HomePage.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/pages/BasePage.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/utils/ConfigReader.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/pages/Page.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/pages/LoginPage.java
+/Users/mohit/Developer/UIFrameworkPOM/demo/src/main/java/utils/ScreenshotUtil.java

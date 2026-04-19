@@ -1,3 +1,4 @@
+package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,7 +9,8 @@ public class HomePage extends BasePage {
         super(driver);
     }
 
-    private By header = By.className("//*[@class='app_logo']");
+    private By header = By.xpath("//div[@class='app_logo']");
+    // private By header = By.className("//*[@class='header_secondary_container']");
 
     public WebElement getHeader() {
         return getElement(header);

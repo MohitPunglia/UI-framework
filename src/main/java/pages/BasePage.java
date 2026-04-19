@@ -1,3 +1,4 @@
+package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,14 +31,8 @@ public class BasePage extends Page {
 
     @Override
     public WebElement getElement(By locator) {
-        WebElement element = null;
-        try {
-            element = driver.findElement(locator);
-            return element;
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return element;
+        waitForElement(locator);
+        return driver.findElement(locator);
     }
 
 }

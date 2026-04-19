@@ -1,4 +1,9 @@
-LoginPage.class
-HomePage.class
-BasePage.class
-Page.class
+utils/ConfigReader.class
+utils/ExtentManager.class
+utils/ScreenshotUtil.class
+pages/Page.class
+pages/HomePage.class
+pages/BasePage.class
+utils/DataProviderUtil.class
+pages/LoginPage.class
+utils/JsonReader.class

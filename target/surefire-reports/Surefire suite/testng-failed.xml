@@ -3,13 +3,14 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="LoginTest">
+      <class name="tests.LoginTest">
         <methods>
           <include name="setUpTest"/>
-          <include name="tearDown"/>
           <include name="performLogin"/>
+          <include name="tearDown"/>
+          <include name="loginTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- LoginTest -->
+      </class> <!-- tests.LoginTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

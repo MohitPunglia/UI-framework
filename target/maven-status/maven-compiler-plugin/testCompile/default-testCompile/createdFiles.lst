@@ -1,2 +1,3 @@
-LoginTest.class
-BaseTest.class
+tests/TestListener.class
+tests/LoginTest.class
+tests/BaseTest.class

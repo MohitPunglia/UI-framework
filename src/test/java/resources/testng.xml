@@ -3,6 +3,10 @@
 
 <suite thread-count="2" name="Swag Labs Test Automation Suite" parallel="tests" verbose="5">
 
+    <listeners>
+        <listener class-name="tests.TestListener"/>
+    </listeners>
+
     <test name="Swag Labs Chrome Test Cases" parallel="methods" thread-count="2">
         <parameter name="browser" value="chrome" />
         <classes>
@@ -10,11 +14,11 @@
         </classes>
     </test>
 
-    <test name="Swag Labs Firefox Test Cases" parallel="methods" thread-count="2">
+    <!-- <test name="Swag Labs Firefox Test Cases" parallel="methods" thread-count="2">
         <parameter name="browser" value="firefox" />
         <classes>
             <class name="LoginTest"></class>
         </classes>
-    </test>
+    </test> -->
 
 </suite>

@@ -30,7 +30,7 @@ This framework automates end-to-end UI testing for [Swag Labs](https://www.sauce
 - **Page Object Model (POM)** — each page is represented as a class, keeping test logic separate from UI interactions
 - **Abstract `Page` class** — defines a contract of common page actions (`getElement`, `waitForElement`, etc.)
 - **`BasePage`** — concrete implementation of `Page`, shared across all page classes
-- **`ThreadLocal<WebDriver>`** — ensures thread-safe parallel execution across browsers
+
 
 ---
 
